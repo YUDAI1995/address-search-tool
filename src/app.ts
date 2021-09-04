@@ -16,7 +16,6 @@ type GoogleGeoCordingResponse = {
 function searchAddressHandler(event: Event) {
   event.preventDefault();
   const enteredAddress = addressInput.value;
-  console.log(enteredAddress);
 
   axios
     .get<GoogleGeoCordingResponse>(
@@ -44,9 +43,6 @@ function searchAddressHandler(event: Event) {
         position: coordinates,
         map: map,
       });
-
-      console.log(response);
-      console.log(coordinates);
     })
     .catch((err) => {
       //　エラー、httpレスポンスコードがエラーの際に呼ばれる
