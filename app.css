@@ -1,0 +1,90 @@
+html {
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    width: 100%;
+}
+
+main {
+    display: block;
+    max-width: 1090px;
+    min-height: calc(100vh - 104px);
+    margin: 20px 80px;
+}
+
+#map {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    /* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+    -webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+    min-height: 360px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    padding: 30px 10px;
+}
+
+form {
+    text-align: center;
+}
+
+.address-form input {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 4px;
+    padding: 10px 10px;
+    outline: 0;
+}
+.address-form input:focus {
+    background-color: #fff6f6;
+    transition: .3s;
+}
+
+.address-form button {
+    display: block;
+    min-width: 160px;
+    color: #fff9e9;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffaa2b;
+    margin: 0 auto;
+    border: 1px solid #ecb51e;
+    border-radius: 20px;
+    padding: 8px 20px;
+    outline: 0;
+    transition: background-color .3s;
+
+}
+.address-form button:hover,
+.address-form button:active {
+    color: #ffbb00;
+    background-color: #fff4d7;
+
+}
+
+footer {
+    height: 64px;
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    padding: 20px 10px;
+
+}

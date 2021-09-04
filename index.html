@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Address Search</title>
+
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJp0QqS_TW9iGN1Q_B-WmT5thAULg-9MY"
+    ></script>
+    <script src="dist/bundle.js" defer></script>
+
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <main>
+      <div id="map">
+        <p>Please enter your address.</p>
+      </div>
+      <form class="address-form">
+        <input type="text" id="address" />
+        <button type="submit">Search.</button>
+      </form>
+    </main>
+
+    <footer>&copy; yy-work</footer>
+  </body>
+</html>
