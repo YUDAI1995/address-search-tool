@@ -1,28 +1,23 @@
 html {
     font-family: sans-serif;
 }
-
 * {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     padding: 0;
 }
-
 p {
     margin: 0;
     width: 100%;
 }
-
 main {
     display: block;
     max-width: 1090px;
     min-height: calc(100vh - 104px);
     margin: 20px 80px;
 }
-
 #map {
     display:-webkit-box;
     display:-ms-flexbox;
@@ -40,11 +35,9 @@ main {
     border-radius: 1px;
     padding: 30px 10px;
 }
-
 form {
     text-align: center;
 }
-
 .address-form input {
     display: block;
     width: 100%;
@@ -58,7 +51,9 @@ form {
     background-color: #fff6f6;
     transition: .3s;
 }
-
+.address-form input:internal-autofill-selected {
+    background-color: #fff6f6!important;
+}
 .address-form button {
     display: block;
     min-width: 160px;
@@ -80,7 +75,6 @@ form {
     background-color: #fff4d7;
 
 }
-
 footer {
     height: 64px;
     text-align: center;
