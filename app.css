@@ -51,7 +51,7 @@ form {
     background-color: #fff6f6;
     transition: .3s;
 }
-.address-form input:internal-autofill-selected {
+.address-form input:-internal-autofill-selected {
     background-color: #fff6f6!important;
 }
 .address-form button {
