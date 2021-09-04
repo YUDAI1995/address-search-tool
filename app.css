@@ -14,9 +14,9 @@ p {
 }
 main {
     display: block;
-    max-width: 1090px;
+    max-width: 980px;
     min-height: calc(100vh - 104px);
-    margin: 20px 80px;
+    margin: 20px auto;
 }
 #map {
     display:-webkit-box;
@@ -80,5 +80,10 @@ footer {
     text-align: center;
     background-color: rgb(231, 231, 231);
     padding: 20px 10px;
+}
 
+@media screen and (max-width: 959px) {
+    main {
+        margin: 10px auto;
+    }
 }
