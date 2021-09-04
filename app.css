@@ -16,7 +16,7 @@ main {
     display: block;
     max-width: 980px;
     min-height: calc(100vh - 104px);
-    margin: 20px auto;
+    margin: 30px auto;
 }
 #map {
     display:-webkit-box;
@@ -84,6 +84,6 @@ footer {
 
 @media screen and (max-width: 959px) {
     main {
-        margin: 10px auto;
+        margin: 10px 10px;
     }
 }
